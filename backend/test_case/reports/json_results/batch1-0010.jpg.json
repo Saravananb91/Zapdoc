@@ -1,0 +1,47 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 19087,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"99314100\",\n  \"date_of_issue\": \"2014-06-25\",\n  \"seller\": {\n    \"name\": \"Michael, Farrell and Lee\",\n    \"address\": \"95360 Washington Inlet\\nPort Sandraview, CT 01507\",\n    \"tax_id\": \"993-76-1179\"\n  },\n  \"client\": {\n    \"name\": \"Collins, Barrett and Schroeder\",\n    \"address\": \"2314 Beard Via\\nKellybury, GA 19687\",\n    \"tax_id\": \"908-81-7850\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Real Madrid Inflatable Chair (SG16136)\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"43,95\",\n      \"net_amount\": \"219,75\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"241,73\"\n    ,\n    {\n      \"item_no\": 2,\n      \"description\": \"60 Inches Marble Dinning Table Top Inlay Work Lawn Table with Multi Color Stones\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"5 756,00\",\n      \"net_amount\": \"5 756,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"6 331,60\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"5 975,75\",\n    \"vat_total\": \"597,58\",\n    \"gross_total\": \"6 573,33\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": null,
+          "date_of_issue": null,
+          "seller_name": null,
+          "seller_address": null,
+          "seller_tax_id": null,
+          "client_name": null,
+          "client_address": null,
+          "client_tax_id": null,
+          "net_total": null,
+          "vat_total": null,
+          "gross_total": null,
+          "items": []
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": null,
+    "date_of_issue": null,
+    "seller_name": null,
+    "seller_address": null,
+    "seller_tax_id": null,
+    "client_name": null,
+    "client_address": null,
+    "client_tax_id": null,
+    "net_total": null,
+    "vat_total": null,
+    "gross_total": null,
+    "items": []
+  }
+}

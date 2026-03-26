@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "filename": "batch1-0001.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 21.9,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0002.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 16.1,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0003.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 17.26,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0004.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 17.91,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0005.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 18.17,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0006.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 18.25,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0007.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 20.73,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0008.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 18.2,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0009.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 15.69,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    },
+    {
+      "filename": "batch1-0010.jpg",
+      "status": "SUCCESS",
+      "accuracy": 50.0,
+      "correct": 2,
+      "total": 4,
+      "time_s": 19.06,
+      "details": {
+        "invoice_no": "\u2713",
+        "date": "\u2717",
+        "seller": "\u2713",
+        "total": "\u2717"
+      }
+    }
+  ],
+  "avg_accuracy": 50.0
+}

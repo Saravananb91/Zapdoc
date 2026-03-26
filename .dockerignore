@@ -1,0 +1,31 @@
+# Git & Docker ignores
+.git
+.gitignore
+.dockerignore
+.env.local
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# App specific
+backend/invoices/*
+!backend/invoices/.gitkeep
+backend/output/*
+!backend/output/.gitkeep
+backend/storage/*

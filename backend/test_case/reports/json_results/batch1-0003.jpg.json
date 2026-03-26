@@ -1,0 +1,115 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 21099,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"19471831\",\n  \"date_of_issue\": \"2014-09-04\",\n  \"seller\": {\n    \"name\": \"Palmer Ltd\",\n    \"address\": \"9790 Bauer Hills Apt. 146\\nSouth Patriciaton, SD 32497\",\n    \"tax_id\": \"924-71-1106\"\n  },\n  \"client\": {\n    \"name\": \"Rios, Oneill and Rowe\",\n    \"address\": \"3571 Tina Trafficway\\nBuckleyland, LA 97688\",\n    \"tax_id\": \"922-72-5979\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"15\\\"x15\\\" White Decorative\\nCoffee Table Top Lapis Lazuli\\nMarquetery Patio D\u00e9cor\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"645,77\",\n      \"net_amount\": \"1 937,31\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"2 131,04\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"4'x2' Marble Dining Table Top\\nPietra Dura Birds Inlay Art\\nFurniture Decors B444\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"1 840,10\",\n      \"net_amount\": \"9 200,50\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"10 120,55\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"60 Inches Marble Dinning Table\\nTop Hand Inlaid Garden Table\\nwith Gemstones\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"5 908,00\",\n      \"net_amount\": \"29 540,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"32 494,00\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"40 677,81\",\n    \"vat_total\": \"4 067,78\",\n    \"gross_total\": \"44 745,59\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "19471831",
+          "date_of_issue": "2014-09-04",
+          "seller": {
+            "name": "Palmer Ltd",
+            "address": "9790 Bauer Hills Apt. 146\nSouth Patriciaton, SD 32497",
+            "tax_id": "924-71-1106"
+          },
+          "client": {
+            "name": "Rios, Oneill and Rowe",
+            "address": "3571 Tina Trafficway\nBuckleyland, LA 97688",
+            "tax_id": "922-72-5979"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "15\"x15\" White Decorative\nCoffee Table Top Lapis Lazuli\nMarquetery Patio D\u00e9cor",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "645,77",
+              "net_amount": "1 937,31",
+              "vat_rate": "10%",
+              "gross_amount": "2 131,04"
+            },
+            {
+              "item_no": 2,
+              "description": "4'x2' Marble Dining Table Top\nPietra Dura Birds Inlay Art\nFurniture Decors B444",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "1 840,10",
+              "net_amount": "9 200,50",
+              "vat_rate": "10%",
+              "gross_amount": "10 120,55"
+            },
+            {
+              "item_no": 3,
+              "description": "60 Inches Marble Dinning Table\nTop Hand Inlaid Garden Table\nwith Gemstones",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "5 908,00",
+              "net_amount": "29 540,00",
+              "vat_rate": "10%",
+              "gross_amount": "32 494,00"
+            }
+          ],
+          "summary": {
+            "net_total": "40 677,81",
+            "vat_total": "4 067,78",
+            "gross_total": "44 745,59"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "19471831",
+    "date_of_issue": "2014-09-04",
+    "seller_name": "Palmer Ltd",
+    "seller_address": "9790 Bauer Hills Apt. 146\nSouth Patriciaton, SD 32497",
+    "seller_tax_id": "924-71-1106",
+    "client_name": "Rios, Oneill and Rowe",
+    "client_address": "3571 Tina Trafficway\nBuckleyland, LA 97688",
+    "client_tax_id": "922-72-5979",
+    "net_total": "40 677,81",
+    "vat_total": "4 067,78",
+    "gross_total": "44 745,59",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "15\"x15\" White Decorative\nCoffee Table Top Lapis Lazuli\nMarquetery Patio D\u00e9cor",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "645,77",
+        "net_amount": "1 937,31",
+        "vat_rate": "10%",
+        "gross_amount": "2 131,04"
+      },
+      {
+        "item_no": 2,
+        "description": "4'x2' Marble Dining Table Top\nPietra Dura Birds Inlay Art\nFurniture Decors B444",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "1 840,10",
+        "net_amount": "9 200,50",
+        "vat_rate": "10%",
+        "gross_amount": "10 120,55"
+      },
+      {
+        "item_no": 3,
+        "description": "60 Inches Marble Dinning Table\nTop Hand Inlaid Garden Table\nwith Gemstones",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "5 908,00",
+        "net_amount": "29 540,00",
+        "vat_rate": "10%",
+        "gross_amount": "32 494,00"
+      }
+    ]
+  }
+}

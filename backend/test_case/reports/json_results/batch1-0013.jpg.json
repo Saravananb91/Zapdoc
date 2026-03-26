@@ -1,0 +1,155 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 25785,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"57986024\",\n  \"date_of_issue\": \"2015-10-17\",\n  \"seller\": {\n    \"name\": \"Schmidt LLC\",\n    \"address\": \"5107 Christina Orchard Apt. 670\\nWest Conniemouth, MD 43698\",\n    \"tax_id\": \"959-72-2889\"\n  },\n  \"client\": {\n    \"name\": \"Allen PLC\",\n    \"address\": \"157 Michaela Station\\nMariafort, IL 29394\",\n    \"tax_id\": \"907-74-8078\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Straw Dogs : Thoughts on Humans and Other Animals, Paperback by Gray, John, L...\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"13,99\",\n      \"net_amount\": \"69,95\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"76,95\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"Quilts of Illusion\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"5,79\",\n      \"net_amount\": \"28,95\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"31,85\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"Selected poetry of W H Auden\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"4,89\",\n      \"net_amount\": \"4,89\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"5,38\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"In the Footsteps of the Russian Snowman (Paperback or Softback)\",\n      \"qty\": \"4,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"25,87\",\n      \"net_amount\": \"103,48\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"113,83\"\n    },\n    {\n      \"item_no\": 5,\n      \"description\": \"Steam Yacht Varuna, Brand New, Free shipping in the US\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"8,45\",\n      \"net_amount\": \"8,45\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"9,29\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"215,72\",\n    \"vat_total\": \"21,57\",\n    \"gross_total\": \"237,29\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "57986024",
+          "date_of_issue": "2015-10-17",
+          "seller": {
+            "name": "Schmidt LLC",
+            "address": "5107 Christina Orchard Apt. 670\nWest Conniemouth, MD 43698",
+            "tax_id": "959-72-2889"
+          },
+          "client": {
+            "name": "Allen PLC",
+            "address": "157 Michaela Station\nMariafort, IL 29394",
+            "tax_id": "907-74-8078"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "Straw Dogs : Thoughts on Humans and Other Animals, Paperback by Gray, John, L...",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "13,99",
+              "net_amount": "69,95",
+              "vat_rate": "10%",
+              "gross_amount": "76,95"
+            },
+            {
+              "item_no": 2,
+              "description": "Quilts of Illusion",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "5,79",
+              "net_amount": "28,95",
+              "vat_rate": "10%",
+              "gross_amount": "31,85"
+            },
+            {
+              "item_no": 3,
+              "description": "Selected poetry of W H Auden",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "4,89",
+              "net_amount": "4,89",
+              "vat_rate": "10%",
+              "gross_amount": "5,38"
+            },
+            {
+              "item_no": 4,
+              "description": "In the Footsteps of the Russian Snowman (Paperback or Softback)",
+              "qty": "4,00",
+              "unit": "each",
+              "unit_price": "25,87",
+              "net_amount": "103,48",
+              "vat_rate": "10%",
+              "gross_amount": "113,83"
+            },
+            {
+              "item_no": 5,
+              "description": "Steam Yacht Varuna, Brand New, Free shipping in the US",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "8,45",
+              "net_amount": "8,45",
+              "vat_rate": "10%",
+              "gross_amount": "9,29"
+            }
+          ],
+          "summary": {
+            "net_total": "215,72",
+            "vat_total": "21,57",
+            "gross_total": "237,29"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "57986024",
+    "date_of_issue": "2015-10-17",
+    "seller_name": "Schmidt LLC",
+    "seller_address": "5107 Christina Orchard Apt. 670\nWest Conniemouth, MD 43698",
+    "seller_tax_id": "959-72-2889",
+    "client_name": "Allen PLC",
+    "client_address": "157 Michaela Station\nMariafort, IL 29394",
+    "client_tax_id": "907-74-8078",
+    "net_total": "215,72",
+    "vat_total": "21,57",
+    "gross_total": "237,29",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Straw Dogs : Thoughts on Humans and Other Animals, Paperback by Gray, John, L...",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "13,99",
+        "net_amount": "69,95",
+        "vat_rate": "10%",
+        "gross_amount": "76,95"
+      },
+      {
+        "item_no": 2,
+        "description": "Quilts of Illusion",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "5,79",
+        "net_amount": "28,95",
+        "vat_rate": "10%",
+        "gross_amount": "31,85"
+      },
+      {
+        "item_no": 3,
+        "description": "Selected poetry of W H Auden",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "4,89",
+        "net_amount": "4,89",
+        "vat_rate": "10%",
+        "gross_amount": "5,38"
+      },
+      {
+        "item_no": 4,
+        "description": "In the Footsteps of the Russian Snowman (Paperback or Softback)",
+        "qty": "4,00",
+        "unit": "each",
+        "unit_price": "25,87",
+        "net_amount": "103,48",
+        "vat_rate": "10%",
+        "gross_amount": "113,83"
+      },
+      {
+        "item_no": 5,
+        "description": "Steam Yacht Varuna, Brand New, Free shipping in the US",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "8,45",
+        "net_amount": "8,45",
+        "vat_rate": "10%",
+        "gross_amount": "9,29"
+      }
+    ]
+  }
+}

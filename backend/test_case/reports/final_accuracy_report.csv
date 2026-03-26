@@ -1,0 +1,7 @@
+Filename,Status,Processing Time (s),Accuracy %,Invoice No,Date,Seller,Total
+batch1-0001.jpg,SUCCESS,16.93,66.7,51109338,2013-04-13,"Andrews, Kirby and Valdez","6 204,19"
+batch1-0002.jpg,FAILED,20.42,0.0,,,,
+batch1-0003.jpg,FAILED,20.90,0.0,,,,
+batch1-0004.jpg,FAILED,20.42,0.0,,,,
+batch1-0005.jpg,FAILED,20.90,0.0,,,,
+batch1-0006.jpg,FAILED,19.68,0.0,,,,

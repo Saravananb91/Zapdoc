@@ -1,0 +1,75 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 16230,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"77596491\",\n  \"date_of_issue\": \"2021-01-31\",\n  \"seller\": {\n    \"name\": \"Tran, Hurst and Rodgers\",\n    \"address\": \"Unit 2493 Box 1389\\nDPO AP 75814\",\n    \"tax_id\": \"988-83-0971\"\n  },\n  \"client\": {\n    \"name\": \"Stephenson Inc\",\n    \"address\": \"716 Wright Flat Apt. 385\\nSouth Carrie, GA 17790\",\n    \"tax_id\": \"926-85-5660\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Earl Scruggs and the 5-String Banjo: Revised and Enhanced Edition (Paperback or\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"22,68\",\n      \"net_amount\": \"22,68\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"24,95\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"22,68\",\n    \"vat_total\": \"2,27\",\n    \"gross_total\": \"24,95\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "77596491",
+          "date_of_issue": "2021-01-31",
+          "seller": {
+            "name": "Tran, Hurst and Rodgers",
+            "address": "Unit 2493 Box 1389\nDPO AP 75814",
+            "tax_id": "988-83-0971"
+          },
+          "client": {
+            "name": "Stephenson Inc",
+            "address": "716 Wright Flat Apt. 385\nSouth Carrie, GA 17790",
+            "tax_id": "926-85-5660"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "Earl Scruggs and the 5-String Banjo: Revised and Enhanced Edition (Paperback or",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "22,68",
+              "net_amount": "22,68",
+              "vat_rate": "10%",
+              "gross_amount": "24,95"
+            }
+          ],
+          "summary": {
+            "net_total": "22,68",
+            "vat_total": "2,27",
+            "gross_total": "24,95"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "77596491",
+    "date_of_issue": "2021-01-31",
+    "seller_name": "Tran, Hurst and Rodgers",
+    "seller_address": "Unit 2493 Box 1389\nDPO AP 75814",
+    "seller_tax_id": "988-83-0971",
+    "client_name": "Stephenson Inc",
+    "client_address": "716 Wright Flat Apt. 385\nSouth Carrie, GA 17790",
+    "client_tax_id": "926-85-5660",
+    "net_total": "22,68",
+    "vat_total": "2,27",
+    "gross_total": "24,95",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Earl Scruggs and the 5-String Banjo: Revised and Enhanced Edition (Paperback or",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "22,68",
+        "net_amount": "22,68",
+        "vat_rate": "10%",
+        "gross_amount": "24,95"
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 17556,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"12847181\",\n  \"date_of_issue\": \"2012-03-03\",\n  \"seller\": {\n    \"name\": \"Fitzpatrick and Sons\",\n    \"address\": \"00480 Cook Cove\\nSpencerport, UT 12036\",\n    \"tax_id\": \"998-99-5253\"\n  },\n  \"client\": {\n    \"name\": \"Duncan PLC\",\n    \"address\": \"Unit 8799 Box 0703\\nDPO AP 81970\",\n    \"tax_id\": \"911-82-7132\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"HP Desktop Computer PC Core i5 16GB 2TB HD 256GB SSD 22\\\" LCD Windows 10\",\n      \"qty\": \"4,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"139,95\",\n      \"net_amount\": \"559,80\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"615,78\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"CUSTOM BUILT AMD RYZEN THREADRIPPER GAMING COMPUTER , 32 GB RAM,\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"1 400,00\",\n      \"net_amount\": \"4 200,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"4 620,00\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"Fast Dell Optiplex Desktop PC Computer Dual Core 3.4Ghz 8GB 1TB Win 10 Pro WIFI\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"217,00\",\n      \"net_amount\": \"217,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"238,70\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"Dell Optiplex 790 Computer i7 @ 3.40 Ghz Quad Core 250GB 4GB Working\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"159,99\",\n      \"net_amount\": \"479,97\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"527,97\"\n    },\n    {\n      \"item_no\": 5,\n      \"description\": \"Vintage Microsolutions Pentium 133mhz Desktop Tower PC Windows 95 5.25 Floppy\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"390,00\",\n      \"net_amount\": \"780,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"858,00\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"6 236,77\",\n    \"vat_total\": \"623,68\",\n    \"gross_total\": \"6 860,45\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "12847181",
+          "date_of_issue": "2012-03-03",
+          "seller": {
+            "name": "Fitzpatrick and Sons",
+            "address": "00480 Cook Cove\nSpencerport, UT 12036",
+            "tax_id": "998-99-5253"
+          },
+          "client": {
+            "name": "Duncan PLC",
+            "address": "Unit 8799 Box 0703\nDPO AP 81970",
+            "tax_id": "911-82-7132"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "HP Desktop Computer PC Core i5 16GB 2TB HD 256GB SSD 22\" LCD Windows 10",
+              "qty": "4,00",
+              "unit": "each",
+              "unit_price": "139,95",
+              "net_amount": "559,80",
+              "vat_rate": "10%",
+              "gross_amount": "615,78"
+            },
+            {
+              "item_no": 2,
+              "description": "CUSTOM BUILT AMD RYZEN THREADRIPPER GAMING COMPUTER , 32 GB RAM,",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "1 400,00",
+              "net_amount": "4 200,00",
+              "vat_rate": "10%",
+              "gross_amount": "4 620,00"
+            },
+            {
+              "item_no": 3,
+              "description": "Fast Dell Optiplex Desktop PC Computer Dual Core 3.4Ghz 8GB 1TB Win 10 Pro WIFI",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "217,00",
+              "net_amount": "217,00",
+              "vat_rate": "10%",
+              "gross_amount": "238,70"
+            },
+            {
+              "item_no": 4,
+              "description": "Dell Optiplex 790 Computer i7 @ 3.40 Ghz Quad Core 250GB 4GB Working",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "159,99",
+              "net_amount": "479,97",
+              "vat_rate": "10%",
+              "gross_amount": "527,97"
+            },
+            {
+              "item_no": 5,
+              "description": "Vintage Microsolutions Pentium 133mhz Desktop Tower PC Windows 95 5.25 Floppy",
+              "qty": "2,00",
+              "unit": "each",
+              "unit_price": "390,00",
+              "net_amount": "780,00",
+              "vat_rate": "10%",
+              "gross_amount": "858,00"
+            }
+          ],
+          "summary": {
+            "net_total": "6 236,77",
+            "vat_total": "623,68",
+            "gross_total": "6 860,45"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "12847181",
+    "date_of_issue": "2012-03-03",
+    "seller_name": "Fitzpatrick and Sons",
+    "seller_address": "00480 Cook Cove\nSpencerport, UT 12036",
+    "seller_tax_id": "998-99-5253",
+    "client_name": "Duncan PLC",
+    "client_address": "Unit 8799 Box 0703\nDPO AP 81970",
+    "client_tax_id": "911-82-7132",
+    "net_total": "6 236,77",
+    "vat_total": "623,68",
+    "gross_total": "6 860,45",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "HP Desktop Computer PC Core i5 16GB 2TB HD 256GB SSD 22\" LCD Windows 10",
+        "qty": "4,00",
+        "unit": "each",
+        "unit_price": "139,95",
+        "net_amount": "559,80",
+        "vat_rate": "10%",
+        "gross_amount": "615,78"
+      },
+      {
+        "item_no": 2,
+        "description": "CUSTOM BUILT AMD RYZEN THREADRIPPER GAMING COMPUTER , 32 GB RAM,",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "1 400,00",
+        "net_amount": "4 200,00",
+        "vat_rate": "10%",
+        "gross_amount": "4 620,00"
+      },
+      {
+        "item_no": 3,
+        "description": "Fast Dell Optiplex Desktop PC Computer Dual Core 3.4Ghz 8GB 1TB Win 10 Pro WIFI",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "217,00",
+        "net_amount": "217,00",
+        "vat_rate": "10%",
+        "gross_amount": "238,70"
+      },
+      {
+        "item_no": 4,
+        "description": "Dell Optiplex 790 Computer i7 @ 3.40 Ghz Quad Core 250GB 4GB Working",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "159,99",
+        "net_amount": "479,97",
+        "vat_rate": "10%",
+        "gross_amount": "527,97"
+      },
+      {
+        "item_no": 5,
+        "description": "Vintage Microsolutions Pentium 133mhz Desktop Tower PC Windows 95 5.25 Floppy",
+        "qty": "2,00",
+        "unit": "each",
+        "unit_price": "390,00",
+        "net_amount": "780,00",
+        "vat_rate": "10%",
+        "gross_amount": "858,00"
+      }
+    ]
+  }
+}

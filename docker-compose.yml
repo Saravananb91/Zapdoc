@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  backend:
+    image: saravanan0901/ocr_zubera:backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ocr_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/
+    volumes:
+      - ./backend/invoices:/app/invoices # Persist invoices if needed
+      - ./backend/output:/app/output # Persist outputs
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    container_name: ocr_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  frontend:
+    image: saravanan0901/ocr_zubera:frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ocr_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+# Optional: Add network if complex networking needed
+# networks:
+#   ocr-network:
+#     driver: bridge
+
+volumes:
+  mongo_data:

@@ -1,0 +1,95 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 16570,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"68688408\",\n  \"date_of_issue\": \"2016-03-20\",\n  \"seller\": {\n    \"name\": \"Torres and Sons\",\n    \"address\": \"4052 Brown Roads\\nHaysstad, NJ 06418\",\n    \"tax_id\": \"953-84-2239\"\n  },\n  \"client\": {\n    \"name\": \"Dennis, Levy and Bowen\",\n    \"address\": \"523 Leslie Manors\\nLake Colleenville, CT 12053\",\n    \"tax_id\": \"904-82-9186\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Nike 747998-401 Team Hustle D7 Kids Blue Mid Top Basketball Shoes Size 4Y US\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"10,99\",\n      \"net_amount\": \"32,97\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"36,27\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"Jordan Nike Kid Air 1 Retro High Black Gray Elephant Size 7Y 838850-013\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"50,00\",\n      \"net_amount\": \"50,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"55,00\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"82,97\",\n    \"vat_total\": \"8,30\",\n    \"gross_total\": \"91,27\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "68688408",
+          "date_of_issue": "2016-03-20",
+          "seller": {
+            "name": "Torres and Sons",
+            "address": "4052 Brown Roads\nHaysstad, NJ 06418",
+            "tax_id": "953-84-2239"
+          },
+          "client": {
+            "name": "Dennis, Levy and Bowen",
+            "address": "523 Leslie Manors\nLake Colleenville, CT 12053",
+            "tax_id": "904-82-9186"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "Nike 747998-401 Team Hustle D7 Kids Blue Mid Top Basketball Shoes Size 4Y US",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "10,99",
+              "net_amount": "32,97",
+              "vat_rate": "10%",
+              "gross_amount": "36,27"
+            },
+            {
+              "item_no": 2,
+              "description": "Jordan Nike Kid Air 1 Retro High Black Gray Elephant Size 7Y 838850-013",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "50,00",
+              "net_amount": "50,00",
+              "vat_rate": "10%",
+              "gross_amount": "55,00"
+            }
+          ],
+          "summary": {
+            "net_total": "82,97",
+            "vat_total": "8,30",
+            "gross_total": "91,27"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "68688408",
+    "date_of_issue": "2016-03-20",
+    "seller_name": "Torres and Sons",
+    "seller_address": "4052 Brown Roads\nHaysstad, NJ 06418",
+    "seller_tax_id": "953-84-2239",
+    "client_name": "Dennis, Levy and Bowen",
+    "client_address": "523 Leslie Manors\nLake Colleenville, CT 12053",
+    "client_tax_id": "904-82-9186",
+    "net_total": "82,97",
+    "vat_total": "8,30",
+    "gross_total": "91,27",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Nike 747998-401 Team Hustle D7 Kids Blue Mid Top Basketball Shoes Size 4Y US",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "10,99",
+        "net_amount": "32,97",
+        "vat_rate": "10%",
+        "gross_amount": "36,27"
+      },
+      {
+        "item_no": 2,
+        "description": "Jordan Nike Kid Air 1 Retro High Black Gray Elephant Size 7Y 838850-013",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "50,00",
+        "net_amount": "50,00",
+        "vat_rate": "10%",
+        "gross_amount": "55,00"
+      }
+    ]
+  }
+}

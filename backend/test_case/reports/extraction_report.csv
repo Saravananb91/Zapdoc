@@ -1,0 +1,22 @@
+Filename,Status,Processing Time (s),Invoice No,Date,Seller,Total
+batch1-0001.jpg,SUCCESS,18.16,,,,
+batch1-0002.jpg,SUCCESS,17.56,12847181,2012-03-03,Fitzpatrick and Sons,"6 860,45"
+batch1-0003.jpg,SUCCESS,21.10,19471831,2014-09-04,Palmer Ltd,"44 745,59"
+batch1-0004.jpg,SUCCESS,28.04,16273983,2017-04-01,"Reyes, Holloway and Lee","819,06"
+batch1-0005.jpg,SUCCESS,33.56,89969473,2016-10-29,Johnson-Martin,"797,91"
+batch1-0006.jpg,SUCCESS,38.63,72128555,2013-12-25,Obrien Group,"732,34"
+batch1-0007.jpg,SUCCESS,28.23,1150833,2019-11-24,"Wood, Simpson and Summers","5 138,35"
+batch1-0008.jpg,SUCCESS,60.43,74589240,2013-08-12,Hall-Boyd,"12 973,88"
+batch1-0009.jpg,SUCCESS,15.69,81978187,2013-01-17,Padilla-Miller,"124,79"
+batch1-0010.jpg,SUCCESS,19.09,,,,
+batch1-0011.jpg,SUCCESS,16.57,68688408,2016-03-20,Torres and Sons,"91,27"
+batch1-0012.jpg,SUCCESS,16.97,13407985,2013-11-22,"Nicholson, Miller and Webster","5 459,75"
+batch1-0013.jpg,SUCCESS,25.79,57986024,2015-10-17,Schmidt LLC,"237,29"
+batch1-0014.jpg,SUCCESS,16.23,77596491,2021-01-31,"Tran, Hurst and Rodgers","24,95"
+batch1-0015.jpg,SUCCESS,23.07,46506594,2012-03-12,Porter-Perkins,"1 469,45"
+pdf-1.pdf,SUCCESS,34.89,51109338,2013-04-13,"Andrews, Kirby and Valdez","6 860,45"
+pdf-2.pdf,SUCCESS,32.65,81978187,2013-01-17,Padilla-Miller,"6573,33"
+pdf-3.pdf,SUCCESS,28.77,81978187,2013-01-17,Padilla-Miller,"6 573,33"
+pdf-4.pdf,FAILED,66.10,,,,
+pdf-5.pdf,FAILED,65.04,,,,
+pdf-6.pdf,FAILED,22.67,,,,

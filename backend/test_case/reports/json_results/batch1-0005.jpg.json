@@ -1,0 +1,155 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 33561,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"89969473\",\n  \"date_of_issue\": \"2016-10-29\",\n  \"seller\": {\n    \"name\": \"Johnson-Martin\",\n    \"address\": \"3836 Moore Ports\\nNorth Michael, MO 01844\",\n    \"tax_id\": \"972-82-0713\"\n  },\n  \"client\": {\n    \"name\": \"Deleon, Davila and Allen\",\n    \"address\": \"355 King Lake Suite 071\\nSouth Haleyshire, KY 55765\",\n    \"tax_id\": \"944-77-3882\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Wild West Wine\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"27,00\",\n      \"net_amount\": \"54,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"59,40\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"Press Wine 15L Fruit Cider Apple Crusher Juice Grape Stainless Maker Grapes New\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"279,00\",\n      \"net_amount\": \"558,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"613,80\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"Wine Rack Holder Iron Art Hanging Racks Glass Cup Stemware Shelf Mounted 2 Color\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"18,75\",\n      \"net_amount\": \"56,25\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"61,87\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"Rust Proof Three Rows Tool Wine Glass Holder Simple Iron Wire Home Hanging Rack\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"11,56\",\n      \"net_amount\": \"23,12\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"25,43\"\n    },\n    {\n      \"item_no\": 5,\n      \"description\": \"VTG 1970s MCM Brown Steel Tube Wall or Desk Mounted 12-Wine Rack Bottle Holder\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"34,00\",\n      \"net_amount\": \"34,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"37,40\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"725,37\",\n    \"vat_total\": \"72,54\",\n    \"gross_total\": \"797,91\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "89969473",
+          "date_of_issue": "2016-10-29",
+          "seller": {
+            "name": "Johnson-Martin",
+            "address": "3836 Moore Ports\nNorth Michael, MO 01844",
+            "tax_id": "972-82-0713"
+          },
+          "client": {
+            "name": "Deleon, Davila and Allen",
+            "address": "355 King Lake Suite 071\nSouth Haleyshire, KY 55765",
+            "tax_id": "944-77-3882"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "Wild West Wine",
+              "qty": "2,00",
+              "unit": "each",
+              "unit_price": "27,00",
+              "net_amount": "54,00",
+              "vat_rate": "10%",
+              "gross_amount": "59,40"
+            },
+            {
+              "item_no": 2,
+              "description": "Press Wine 15L Fruit Cider Apple Crusher Juice Grape Stainless Maker Grapes New",
+              "qty": "2,00",
+              "unit": "each",
+              "unit_price": "279,00",
+              "net_amount": "558,00",
+              "vat_rate": "10%",
+              "gross_amount": "613,80"
+            },
+            {
+              "item_no": 3,
+              "description": "Wine Rack Holder Iron Art Hanging Racks Glass Cup Stemware Shelf Mounted 2 Color",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "18,75",
+              "net_amount": "56,25",
+              "vat_rate": "10%",
+              "gross_amount": "61,87"
+            },
+            {
+              "item_no": 4,
+              "description": "Rust Proof Three Rows Tool Wine Glass Holder Simple Iron Wire Home Hanging Rack",
+              "qty": "2,00",
+              "unit": "each",
+              "unit_price": "11,56",
+              "net_amount": "23,12",
+              "vat_rate": "10%",
+              "gross_amount": "25,43"
+            },
+            {
+              "item_no": 5,
+              "description": "VTG 1970s MCM Brown Steel Tube Wall or Desk Mounted 12-Wine Rack Bottle Holder",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "34,00",
+              "net_amount": "34,00",
+              "vat_rate": "10%",
+              "gross_amount": "37,40"
+            }
+          ],
+          "summary": {
+            "net_total": "725,37",
+            "vat_total": "72,54",
+            "gross_total": "797,91"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "89969473",
+    "date_of_issue": "2016-10-29",
+    "seller_name": "Johnson-Martin",
+    "seller_address": "3836 Moore Ports\nNorth Michael, MO 01844",
+    "seller_tax_id": "972-82-0713",
+    "client_name": "Deleon, Davila and Allen",
+    "client_address": "355 King Lake Suite 071\nSouth Haleyshire, KY 55765",
+    "client_tax_id": "944-77-3882",
+    "net_total": "725,37",
+    "vat_total": "72,54",
+    "gross_total": "797,91",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Wild West Wine",
+        "qty": "2,00",
+        "unit": "each",
+        "unit_price": "27,00",
+        "net_amount": "54,00",
+        "vat_rate": "10%",
+        "gross_amount": "59,40"
+      },
+      {
+        "item_no": 2,
+        "description": "Press Wine 15L Fruit Cider Apple Crusher Juice Grape Stainless Maker Grapes New",
+        "qty": "2,00",
+        "unit": "each",
+        "unit_price": "279,00",
+        "net_amount": "558,00",
+        "vat_rate": "10%",
+        "gross_amount": "613,80"
+      },
+      {
+        "item_no": 3,
+        "description": "Wine Rack Holder Iron Art Hanging Racks Glass Cup Stemware Shelf Mounted 2 Color",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "18,75",
+        "net_amount": "56,25",
+        "vat_rate": "10%",
+        "gross_amount": "61,87"
+      },
+      {
+        "item_no": 4,
+        "description": "Rust Proof Three Rows Tool Wine Glass Holder Simple Iron Wire Home Hanging Rack",
+        "qty": "2,00",
+        "unit": "each",
+        "unit_price": "11,56",
+        "net_amount": "23,12",
+        "vat_rate": "10%",
+        "gross_amount": "25,43"
+      },
+      {
+        "item_no": 5,
+        "description": "VTG 1970s MCM Brown Steel Tube Wall or Desk Mounted 12-Wine Rack Bottle Holder",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "34,00",
+        "net_amount": "34,00",
+        "vat_rate": "10%",
+        "gross_amount": "37,40"
+      }
+    ]
+  }
+}

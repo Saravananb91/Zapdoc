@@ -1,0 +1,22 @@
+Filename,Accuracy %,Inv Match,Date Match,Seller Match,Total Match
+batch1-0001.jpg,0.0,❌,❌,❌,❌
+batch1-0002.jpg,100.0,✅,✅,✅,✅
+batch1-0003.jpg,100.0,✅,✅,✅,✅
+batch1-0004.jpg,75.0,✅,❌,✅,✅
+batch1-0005.jpg,100.0,✅,✅,✅,✅
+batch1-0006.jpg,100.0,✅,✅,✅,✅
+batch1-0007.jpg,75.0,❌,✅,✅,✅
+batch1-0008.jpg,100.0,✅,✅,✅,✅
+batch1-0009.jpg,100.0,✅,✅,✅,✅
+batch1-0010.jpg,0.0,❌,❌,❌,❌
+batch1-0011.jpg,100.0,✅,✅,✅,✅
+batch1-0012.jpg,100.0,✅,✅,✅,✅
+batch1-0013.jpg,100.0,✅,✅,✅,✅
+batch1-0014.jpg,100.0,✅,✅,✅,✅
+batch1-0015.jpg,75.0,✅,❌,✅,✅
+pdf-1.pdf,100.0,✅,✅,✅,✅
+pdf-2.pdf,0.0,❌,❌,❌,❌
+pdf-3.pdf,0.0,❌,❌,❌,❌
+pdf-4.pdf,0.0,❌,❌,❌,❌
+pdf-5.pdf,0.0,❌,❌,❌,❌
+pdf-6.pdf,0.0,❌,❌,❌,❌

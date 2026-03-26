@@ -1,0 +1,135 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 38630,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"72128555\",\n  \"date_of_issue\": \"2013-12-25\",\n  \"seller\": {\n    \"name\": \"Obrien Group\",\n    \"address\": \"6217 Boyd Ville Apt. 758\\nRobbinsberg, AZ 54997\",\n    \"tax_id\": \"905-82-5399\"\n  },\n  \"client\": {\n    \"name\": \"Duncan-Davis\",\n    \"address\": \"PSC 2324, Box 6632\\nAPO AP 93827\",\n    \"tax_id\": \"917-86-7656\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Fatawa Islamiyah (Islamic Verdicts) (8 Volume Set)\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"99,90\",\n      \"net_amount\": \"199,80\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"219,78\"\n    ,\n      \"item_no\": 2,\n      \"description\": \"Sasinowski M-Legacy Of Ra BOOK NEW\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"19,40\",\n      \"net_amount\": \"19,40\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"21,34\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"Time Life Books: The Old West Series ~ Complete 26 Volumes + Master Index mn853\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"139,95\",\n      \"net_amount\": \"419,85\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"461,83\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"Tumbling by Caela Carter\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"4,49\",\n      \"net_amount\": \"13,47\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"14,82\"\n    },\n    {\n      \"item_no\": 5,\n      \"description\": \"How to Win Friends & Influence People\",\n      \"qty\": \"2,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"6,62\",\n      \"net_amount\": \"13,24\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"14,56\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"665,76\",\n    \"vat_total\": \"66,58\",\n    \"gross_total\": \"732,34\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "72128555",
+          "date_of_issue": "2013-12-25",
+          "seller": {
+            "name": "Obrien Group",
+            "address": "6217 Boyd Ville Apt. 758\nRobbinsberg, AZ 54997",
+            "tax_id": "905-82-5399"
+          },
+          "client": {
+            "name": "Duncan-Davis",
+            "address": "PSC 2324, Box 6632\nAPO AP 93827",
+            "tax_id": "917-86-7656"
+          },
+          "items": [
+            {
+              "item_no": 2,
+              "description": "Sasinowski M-Legacy Of Ra BOOK NEW",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "19,40",
+              "net_amount": "19,40",
+              "vat_rate": "10%",
+              "gross_amount": "21,34"
+            },
+            {
+              "item_no": 3,
+              "description": "Time Life Books: The Old West Series ~ Complete 26 Volumes + Master Index mn853",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "139,95",
+              "net_amount": "419,85",
+              "vat_rate": "10%",
+              "gross_amount": "461,83"
+            },
+            {
+              "item_no": 4,
+              "description": "Tumbling by Caela Carter",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "4,49",
+              "net_amount": "13,47",
+              "vat_rate": "10%",
+              "gross_amount": "14,82"
+            },
+            {
+              "item_no": 5,
+              "description": "How to Win Friends & Influence People",
+              "qty": "2,00",
+              "unit": "each",
+              "unit_price": "6,62",
+              "net_amount": "13,24",
+              "vat_rate": "10%",
+              "gross_amount": "14,56"
+            }
+          ],
+          "summary": {
+            "net_total": "665,76",
+            "vat_total": "66,58",
+            "gross_total": "732,34"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "72128555",
+    "date_of_issue": "2013-12-25",
+    "seller_name": "Obrien Group",
+    "seller_address": "6217 Boyd Ville Apt. 758\nRobbinsberg, AZ 54997",
+    "seller_tax_id": "905-82-5399",
+    "client_name": "Duncan-Davis",
+    "client_address": "PSC 2324, Box 6632\nAPO AP 93827",
+    "client_tax_id": "917-86-7656",
+    "net_total": "665,76",
+    "vat_total": "66,58",
+    "gross_total": "732,34",
+    "items": [
+      {
+        "item_no": 2,
+        "description": "Sasinowski M-Legacy Of Ra BOOK NEW",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "19,40",
+        "net_amount": "19,40",
+        "vat_rate": "10%",
+        "gross_amount": "21,34"
+      },
+      {
+        "item_no": 3,
+        "description": "Time Life Books: The Old West Series ~ Complete 26 Volumes + Master Index mn853",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "139,95",
+        "net_amount": "419,85",
+        "vat_rate": "10%",
+        "gross_amount": "461,83"
+      },
+      {
+        "item_no": 4,
+        "description": "Tumbling by Caela Carter",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "4,49",
+        "net_amount": "13,47",
+        "vat_rate": "10%",
+        "gross_amount": "14,82"
+      },
+      {
+        "item_no": 5,
+        "description": "How to Win Friends & Influence People",
+        "qty": "2,00",
+        "unit": "each",
+        "unit_price": "6,62",
+        "net_amount": "13,24",
+        "vat_rate": "10%",
+        "gross_amount": "14,56"
+      }
+    ]
+  }
+}

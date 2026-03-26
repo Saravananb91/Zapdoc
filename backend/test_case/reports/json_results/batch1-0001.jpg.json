@@ -1,0 +1,47 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 18156,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"51109338\",\n  \"date_of_issue\": \"2013-04-13\",\n  \"seller\": {\n    \"name\": \"Andrews, Kirby and Valdez\",\n    \"address\": \"58861 Gonzalez Prairie\\nLake Danieliefurt, IN 57228\",\n    \"tax_id\": \"945-82-2137\"\n  },\n  \"client\": {\n    \"name\": \"Becker Ltd\",\n    \"address\": \"8012 Stewart Summit Apt. 455\\nNorth Douglas, AZ 95355\",\n    \"tax_id\": \"942-80-0517\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"CLEARANCE! Fast Dell Desktop Computer PC DUAL CORE WINDOWS 10 4/8/16GB RAM\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"209,00\",\n      \"net_amount\": \"627,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"689,70\"\n     Cohort A data:\n\n[\n  {\n    \"invoice_no\": \"51109338\",\n    \"date_of_issue\": \"2013-04-13\",\n    \"seller\": {\n      \"name\": \"Andrews, Kirby and Valdez\",\n      \"address\": \"58861 Gonzalez Prairie\\nLake Danieliefurt, IN 57228\",\n      \"tax_id\": \"945-82-2137\"\n    },\n    \"client\": {\n      \"name\": \"Becker Ltd\",\n      \"address\": \"8012 Stewart Summit Apt. 455\\nNorth Douglas, AZ 95355\",\n      \"tax_id\": \"942-80-0517\"\n    },\n    \"items\": [\n      {\n        \"item_no\": 1,\n        \"description\": \"CLEARANCE! Fast Dell Desktop Computer PC DUAL CORE WINDOWS 10 4/8/16GB RAM\",\n        \"qty\": \"3,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"209,00\",\n        \"net_amount\": \"627,00\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"689,70\"\n      },\n      {\n        \"item_no\": 2,\n        \"description\": \"HP T520 Thin Client Computer AMD GX-212JC 1.2GHz 4GB RAM TESTED !!READ BELOW!!\",\n        \"qty\": \"5,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"37,75\",\n        \"net_amount\": \"188,75\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"207,63\"\n      },\n      {\n        \"item_no\": 3,\n        \"description\": \"gaming pc desktop computer\",\n        \"qty\": \"1,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"400,00\",\n        \"net_amount\": \"400,00\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"440,00\"\n      },\n      {\n        \"item_no\": 4,\n        \"description\": \"12-Core Gaming Computer Desktop PC Tower Affordable GAMING PC 8GB AMD Vega RGB\",\n        \"qty\": \"3,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"464,89\",\n        \"net_amount\": \"1394,67\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"1534,14\"\n      },\n      {\n        \"item_no\": 5,\n        \"description\": \"Custom Build Dell Optiplex 9020 MT i5-4570 3.20GHz Desktop Computer PC\",\n        \"qty\": \"5,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"221,99\",\n        \"net_amount\": \"1109,95\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"1220,95\"\n      },\n      {\n        \"item_no\": 6,\n        \"description\": \"Dell Optiplex 990 MT Computer PC Quad Core i7 3.4Ghz 16GB 2TB HD Windows 10 Pro\",\n        \"qty\": \"4,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"269,95\",\n        \"net_amount\": \"1079,80\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"1187,78\"\n      },\n      {\n        \"item_no\": 7,\n        \"description\": \"Dell Core 2 Duo Desktop Computer | Windows XP Pro | 4GB | 500GB\",\n        \"qty\": \"5,00\",\n        \"unit\": \"each\",\n        \"unit_price\": \"168,00\",\n        \"net_amount\": \"840,00\",\n        \"vat_rate\": \"10%\",\n        \"gross_amount\": \"924,00\"\n      }\n    ],\n    \"summary\": {\n      \"net_total\": \"5 640,17\",\n      \"vat_total\": \"564,02\",\n      \"gross_total\": \"6 204,19\"\n    }\n  }\n]",
+        "structured_data": {
+          "invoice_no": null,
+          "date_of_issue": null,
+          "seller_name": null,
+          "seller_address": null,
+          "seller_tax_id": null,
+          "client_name": null,
+          "client_address": null,
+          "client_tax_id": null,
+          "net_total": null,
+          "vat_total": null,
+          "gross_total": null,
+          "items": []
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": null,
+    "date_of_issue": null,
+    "seller_name": null,
+    "seller_address": null,
+    "seller_tax_id": null,
+    "client_name": null,
+    "client_address": null,
+    "client_tax_id": null,
+    "net_total": null,
+    "vat_total": null,
+    "gross_total": null,
+    "items": []
+  }
+}

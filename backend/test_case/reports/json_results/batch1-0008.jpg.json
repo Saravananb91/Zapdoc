@@ -1,0 +1,135 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 60427,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"74589240\",\n  \"date_of_issue\": \"2013-08-12\",\n  \"seller\": {\n    \"name\": \"Hall-Boyd\",\n    \"address\": \"8719 Reed Street Apt. 120\\nEast Michelleborough, KY 93895\",\n    \"tax_id\": \"977-76-9492\"\n  },\n  \"client\": {\n    \"name\": \"Haas and Sons\",\n    \"address\": \"65628 Brittany Dale\\nWalterschester, LA 26239\",\n    \"tax_id\": \"981-73-4585\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"3D Printed Mat Vortex Illusion Living room Rug Carpet Floors Doors Round Mat\",\n      \"qty\": \"3,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"11,63\",\n      \"net_amount\": \"34,89\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"38,38\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"New Golden Brown Oriental Rug 4X6 Oushak Chobi Floral Hand-Knotted Foyer Carpet\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"232,65\",\n      \"net_amount\": \"1 163,25\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"1 279,58\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"YILONG 5.5'x8' Handknotted Silk Area Rugs Home Decor Classic Blue Carpet 0790\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"10 560,00\",\n      \"net_amount\": \"10 560,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"11 616,00\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"Pretty Woman Small Large Long Floor Carpet Area Rugs Various Size Soft Rug\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"36,30\",\n      \"net_amount\": \"36,30\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"39,93\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"11 794,44\",\n    \"vat_total\": \"1 179,44\",\n    \"gross_total\": \"12 973,88\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "74589240",
+          "date_of_issue": "2013-08-12",
+          "seller": {
+            "name": "Hall-Boyd",
+            "address": "8719 Reed Street Apt. 120\nEast Michelleborough, KY 93895",
+            "tax_id": "977-76-9492"
+          },
+          "client": {
+            "name": "Haas and Sons",
+            "address": "65628 Brittany Dale\nWalterschester, LA 26239",
+            "tax_id": "981-73-4585"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "3D Printed Mat Vortex Illusion Living room Rug Carpet Floors Doors Round Mat",
+              "qty": "3,00",
+              "unit": "each",
+              "unit_price": "11,63",
+              "net_amount": "34,89",
+              "vat_rate": "10%",
+              "gross_amount": "38,38"
+            },
+            {
+              "item_no": 2,
+              "description": "New Golden Brown Oriental Rug 4X6 Oushak Chobi Floral Hand-Knotted Foyer Carpet",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "232,65",
+              "net_amount": "1 163,25",
+              "vat_rate": "10%",
+              "gross_amount": "1 279,58"
+            },
+            {
+              "item_no": 3,
+              "description": "YILONG 5.5'x8' Handknotted Silk Area Rugs Home Decor Classic Blue Carpet 0790",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "10 560,00",
+              "net_amount": "10 560,00",
+              "vat_rate": "10%",
+              "gross_amount": "11 616,00"
+            },
+            {
+              "item_no": 4,
+              "description": "Pretty Woman Small Large Long Floor Carpet Area Rugs Various Size Soft Rug",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "36,30",
+              "net_amount": "36,30",
+              "vat_rate": "10%",
+              "gross_amount": "39,93"
+            }
+          ],
+          "summary": {
+            "net_total": "11 794,44",
+            "vat_total": "1 179,44",
+            "gross_total": "12 973,88"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "74589240",
+    "date_of_issue": "2013-08-12",
+    "seller_name": "Hall-Boyd",
+    "seller_address": "8719 Reed Street Apt. 120\nEast Michelleborough, KY 93895",
+    "seller_tax_id": "977-76-9492",
+    "client_name": "Haas and Sons",
+    "client_address": "65628 Brittany Dale\nWalterschester, LA 26239",
+    "client_tax_id": "981-73-4585",
+    "net_total": "11 794,44",
+    "vat_total": "1 179,44",
+    "gross_total": "12 973,88",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "3D Printed Mat Vortex Illusion Living room Rug Carpet Floors Doors Round Mat",
+        "qty": "3,00",
+        "unit": "each",
+        "unit_price": "11,63",
+        "net_amount": "34,89",
+        "vat_rate": "10%",
+        "gross_amount": "38,38"
+      },
+      {
+        "item_no": 2,
+        "description": "New Golden Brown Oriental Rug 4X6 Oushak Chobi Floral Hand-Knotted Foyer Carpet",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "232,65",
+        "net_amount": "1 163,25",
+        "vat_rate": "10%",
+        "gross_amount": "1 279,58"
+      },
+      {
+        "item_no": 3,
+        "description": "YILONG 5.5'x8' Handknotted Silk Area Rugs Home Decor Classic Blue Carpet 0790",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "10 560,00",
+        "net_amount": "10 560,00",
+        "vat_rate": "10%",
+        "gross_amount": "11 616,00"
+      },
+      {
+        "item_no": 4,
+        "description": "Pretty Woman Small Large Long Floor Carpet Area Rugs Various Size Soft Rug",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "36,30",
+        "net_amount": "36,30",
+        "vat_rate": "10%",
+        "gross_amount": "39,93"
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_status": "SUCCESS",
+  "processing_time_ms": 23074,
+  "total_pages": 1,
+  "successful_pages": 1,
+  "failed_pages": 0,
+  "errors": [],
+  "pages": [
+    {
+      "page_number": 1,
+      "status": "SUCCESS",
+      "retry_count": 0,
+      "ocr": {
+        "raw_text": "{\n  \"invoice_no\": \"46506594\",\n  \"date_of_issue\": \"2012-03-12\",\n  \"seller\": {\n    \"name\": \"Porter-Perkins\",\n    \"address\": \"88652 James Loaf\\nEast Alyssamouth, KS 81684\",\n    \"tax_id\": \"929-76-1260\"\n  },\n  \"client\": {\n    \"name\": \"Castaneda LLC\",\n    \"address\": \"19558 Fry Causeway\\nEast Chelseytown, MD 95490\",\n    \"tax_id\": \"940-86-9734\"\n  },\n  \"items\": [\n    {\n      \"item_no\": 1,\n      \"description\": \"Nintendo 3DS Handheld Console Purple\",\n      \"qty\": \"5,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"98,99\",\n      \"net_amount\": \"494,95\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"544,45\"\n    },\n    {\n      \"item_no\": 2,\n      \"description\": \"PocketGo Bittboy v2 White Retro Video Game Portable Console - 3.5 IPS display\",\n      \"qty\": \"4,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"39,00\",\n      \"net_amount\": \"156,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"171,60\"\n    },\n    {\n      \"item_no\": 3,\n      \"description\": \"Sony PlayStation 3 Slim 120GB Black Console\",\n      \"qty\": \"4,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"99,99\",\n      \"net_amount\": \"399,96\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"439,96\"\n    },\n    {\n      \"item_no\": 4,\n      \"description\": \"Microsoft Xbox 360 - White - Console, Power Supply, AV Cables *Tested, Working*\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"39,95\",\n      \"net_amount\": \"39,95\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"43,95\"\n    },\n    {\n      \"item_no\": 5,\n      \"description\": \"SONY Playstation2 Console SCPH-39000 \\\" Aqua Color \\\" / TESTED 11181\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"45,00\",\n      \"net_amount\": \"45,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"49,50\"\n    },\n    {\n      \"item_no\": 6,\n      \"description\": \"Nintendo 64 Console \\\"Perfect\\\" + Lot Games \\\"6 Games\\\"\",\n      \"qty\": \"1,00\",\n      \"unit\": \"each\",\n      \"unit_price\": \"200,00\",\n      \"net_amount\": \"200,00\",\n      \"vat_rate\": \"10%\",\n      \"gross_amount\": \"220,00\"\n    }\n  ],\n  \"summary\": {\n    \"net_total\": \"1 335,86\",\n    \"vat_total\": \"133,59\",\n    \"gross_total\": \"1 469,45\"\n  }\n}",
+        "structured_data": {
+          "invoice_no": "46506594",
+          "date_of_issue": "2012-03-12",
+          "seller": {
+            "name": "Porter-Perkins",
+            "address": "88652 James Loaf\nEast Alyssamouth, KS 81684",
+            "tax_id": "929-76-1260"
+          },
+          "client": {
+            "name": "Castaneda LLC",
+            "address": "19558 Fry Causeway\nEast Chelseytown, MD 95490",
+            "tax_id": "940-86-9734"
+          },
+          "items": [
+            {
+              "item_no": 1,
+              "description": "Nintendo 3DS Handheld Console Purple",
+              "qty": "5,00",
+              "unit": "each",
+              "unit_price": "98,99",
+              "net_amount": "494,95",
+              "vat_rate": "10%",
+              "gross_amount": "544,45"
+            },
+            {
+              "item_no": 2,
+              "description": "PocketGo Bittboy v2 White Retro Video Game Portable Console - 3.5 IPS display",
+              "qty": "4,00",
+              "unit": "each",
+              "unit_price": "39,00",
+              "net_amount": "156,00",
+              "vat_rate": "10%",
+              "gross_amount": "171,60"
+            },
+            {
+              "item_no": 3,
+              "description": "Sony PlayStation 3 Slim 120GB Black Console",
+              "qty": "4,00",
+              "unit": "each",
+              "unit_price": "99,99",
+              "net_amount": "399,96",
+              "vat_rate": "10%",
+              "gross_amount": "439,96"
+            },
+            {
+              "item_no": 4,
+              "description": "Microsoft Xbox 360 - White - Console, Power Supply, AV Cables *Tested, Working*",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "39,95",
+              "net_amount": "39,95",
+              "vat_rate": "10%",
+              "gross_amount": "43,95"
+            },
+            {
+              "item_no": 5,
+              "description": "SONY Playstation2 Console SCPH-39000 \" Aqua Color \" / TESTED 11181",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "45,00",
+              "net_amount": "45,00",
+              "vat_rate": "10%",
+              "gross_amount": "49,50"
+            },
+            {
+              "item_no": 6,
+              "description": "Nintendo 64 Console \"Perfect\" + Lot Games \"6 Games\"",
+              "qty": "1,00",
+              "unit": "each",
+              "unit_price": "200,00",
+              "net_amount": "200,00",
+              "vat_rate": "10%",
+              "gross_amount": "220,00"
+            }
+          ],
+          "summary": {
+            "net_total": "1 335,86",
+            "vat_total": "133,59",
+            "gross_total": "1 469,45"
+          }
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "invoice_data": {
+    "invoice_no": "46506594",
+    "date_of_issue": "2012-03-12",
+    "seller_name": "Porter-Perkins",
+    "seller_address": "88652 James Loaf\nEast Alyssamouth, KS 81684",
+    "seller_tax_id": "929-76-1260",
+    "client_name": "Castaneda LLC",
+    "client_address": "19558 Fry Causeway\nEast Chelseytown, MD 95490",
+    "client_tax_id": "940-86-9734",
+    "net_total": "1 335,86",
+    "vat_total": "133,59",
+    "gross_total": "1 469,45",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Nintendo 3DS Handheld Console Purple",
+        "qty": "5,00",
+        "unit": "each",
+        "unit_price": "98,99",
+        "net_amount": "494,95",
+        "vat_rate": "10%",
+        "gross_amount": "544,45"
+      },
+      {
+        "item_no": 2,
+        "description": "PocketGo Bittboy v2 White Retro Video Game Portable Console - 3.5 IPS display",
+        "qty": "4,00",
+        "unit": "each",
+        "unit_price": "39,00",
+        "net_amount": "156,00",
+        "vat_rate": "10%",
+        "gross_amount": "171,60"
+      },
+      {
+        "item_no": 3,
+        "description": "Sony PlayStation 3 Slim 120GB Black Console",
+        "qty": "4,00",
+        "unit": "each",
+        "unit_price": "99,99",
+        "net_amount": "399,96",
+        "vat_rate": "10%",
+        "gross_amount": "439,96"
+      },
+      {
+        "item_no": 4,
+        "description": "Microsoft Xbox 360 - White - Console, Power Supply, AV Cables *Tested, Working*",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "39,95",
+        "net_amount": "39,95",
+        "vat_rate": "10%",
+        "gross_amount": "43,95"
+      },
+      {
+        "item_no": 5,
+        "description": "SONY Playstation2 Console SCPH-39000 \" Aqua Color \" / TESTED 11181",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "45,00",
+        "net_amount": "45,00",
+        "vat_rate": "10%",
+        "gross_amount": "49,50"
+      },
+      {
+        "item_no": 6,
+        "description": "Nintendo 64 Console \"Perfect\" + Lot Games \"6 Games\"",
+        "qty": "1,00",
+        "unit": "each",
+        "unit_price": "200,00",
+        "net_amount": "200,00",
+        "vat_rate": "10%",
+        "gross_amount": "220,00"
+      }
+    ]
+  }
+}

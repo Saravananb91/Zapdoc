@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+pymupdf
+google-generativeai
+pydantic
+python-dateutil
+requests
+motor
+tenacity
+supabase
+stripe
+fastapi-mail
+pydantic-settings
+openpyxl
